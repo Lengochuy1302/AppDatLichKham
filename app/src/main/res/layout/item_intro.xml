@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/itemIntro_ivAvatar"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_margin="15dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/intro1"
+        />
+    <TextView
+        android:id="@+id/itemIntro_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sử dụng APP Đặt hẹn khám BV.GĐ người bệnh có thể đăng ký khám tức thời"
+        android:textSize="16sp"
+        android:textColor="@color/purple_500"/>
+
+</LinearLayout>

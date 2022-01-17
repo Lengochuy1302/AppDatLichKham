@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023507321083",
+    "firebase_url": "https://dat-lich-kham.firebaseio.com",
+    "project_id": "dat-lich-kham",
+    "storage_bucket": "dat-lich-kham.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023507321083:android:4f781ebe552ef1fc81a05e",
+        "android_client_info": {
+          "package_name": "com.example.datlichkham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023507321083-gs1p6l8lojj0vspkq6bcplc440tojoki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCstuBmWrIGh3QC2111YkLiV-zGxXuANUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023507321083-gs1p6l8lojj0vspkq6bcplc440tojoki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

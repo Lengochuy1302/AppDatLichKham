@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datlichkham">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DatLichKham">
+        <activity android:name=".MessageActivity"
+            android:theme="@style/Theme.DatLichKham.NoActionBar"></activity>
+        <activity android:name=".ChiTietPhieuKhamActivity" />
+        <activity android:name=".DatLichActivity" />
+        <activity android:name=".BangTinActivity" />
+        <activity android:name=".CapNhatThongTinActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DangKiActivity" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".DangNhapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
